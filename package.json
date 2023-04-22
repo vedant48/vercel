@@ -1,17 +1,22 @@
 {
-  "name": "now-express",
+  "name": "productpage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "William Imoh",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^1.19.1"
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "gramophone": "^0.0.3",
+    "html-to-text": "^8.2.1",
+    "puppeteer": "^19.2.2"
   }
 }
